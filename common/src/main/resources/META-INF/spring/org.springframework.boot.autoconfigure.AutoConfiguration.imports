@@ -1,0 +1,4 @@
+com.liurunqing.lease.common.config.mvc.CodeEnumConverter
+com.liurunqing.lease.common.config.mvc.GlobalExceptionHandler
+com.liurunqing.lease.common.config.mybatisPlus.MybatisPlusConfig
+com.liurunqing.lease.common.config.minio.MinioConfiguration
