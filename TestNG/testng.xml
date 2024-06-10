@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" parallel="none">
+    <test name="Test">
+        <!--        <groups>-->
+        <!--            <run>-->
+        <!--                <include name="group1"/>-->
+        <!--            </run>-->
+        <!--        </groups>-->
+
+        <classes>
+            <class name="com.mbnabc.TestTest3"/>
+        </classes>
+
+    </test> <!-- Test -->
+
+    <test name="Test2">
+        <classes>
+            <class name="com.mbnabc.TestTest4"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="Test123">
+        <parameter name="param1" value="1011111" />
+        <parameter name="param2" value="10" />
+        <classes>
+            <class name="com.mbnabc.TestCase1"/>
+        </classes>
+    </test>
+
+</suite> <!-- Suite -->
